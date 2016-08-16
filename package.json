@@ -1,0 +1,19 @@
+{
+  "name": "jirajara",
+  "version": "1.0.0",
+  "description": "internet button standup tracking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pia380/jirajara.git"
+  },
+  "author": "Silveimar Páez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pia380/jirajara/issues"
+  },
+  "homepage": "https://github.com/pia380/jirajara#readme"
+}
