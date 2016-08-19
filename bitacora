@@ -1,0 +1,7 @@
+
+
+//To test
+curl -H "Content-Type: application/json" -X POST -d '{"hello":"world"}' http://0.0.0.0:3000/event
+
+
+curl -H "Content-Type: application/json" -X POST -d '{"hello":"world"}' http://ec2-54-183-176-102.us-west-1.compute.amazonaws.com/event
