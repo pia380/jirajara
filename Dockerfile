@@ -1,15 +1,15 @@
 FROM node:6.4.0-slim
 
 #Create app directory
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+RUN mkdir -p /usr/src
+WORKDIR /usr/app
 
 #Install app dependencies
-COPY package.json /usr/src/app
+COPY package.json /usr/app
 RUN npm install
 
 #bundle app source
-COPY src /usr/src/app
+COPY src /usr/app/src
 
 EXPOSE 3000
 

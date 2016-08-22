@@ -1,0 +1,14 @@
+{
+  "eventName":"button",
+  "url": "http://ec2-54-183-176-102.us-west-1.compute.amazonaws.com/event",
+  "requestType": "POST",
+  "json":{
+    "gauges":[
+      {
+        "name":"{{SPARK_EVENT_NAME}}",
+        "value":"{{SPARK_EVENT_VALUE}}",
+        "source":"{{SPARK_CORE_ID}}"
+      }
+    ]
+  }
+}
